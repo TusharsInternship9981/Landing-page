@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume - Tushar Sharma</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        .contact {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        video, iframe {
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="contact">
+        <h1>Tushar Sharma</h1>
+
+        <!-- ✅ Clickable Email -->
+        <p>
+            Email: 
+            <a href="mailto:tushar00322@gmail.com">
+                tushar00322@gmail.com
+            </a> 
+            | Phone: +91-8011158917
+        </p>
+
+        <!-- ✅ Clickable Links -->
+        <p>
+            GitHub: 
+            <a href="https://github.com/tusharsharma-sudo" target="_blank">
+                github
+            </a> 
+            | LinkedIn: 
+            <a href="https://www.linkedin.com/in/tushar-sharma-linkdin-9981t/" target="_blank">
+                linkedin
+            </a>
+        </p>
+    </div>
+
+    <h2>Career Objective</h2>
+    <p>
+        Motivated student with a strong interest in software development and data analysis.
+        Seeking opportunities to apply programming skills and grow in a professional environment.
+    </p>
+
+    <h2>Education</h2>
+    <table>
+        <tr>
+            <th>Institution</th>
+            <th>Course</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>Karunya Institute of Technology</td>
+            <td>Computer Science</td>
+            <td>2025 - Present</td>
+        </tr>
+        <tr>
+            <td>Rameshwar Dhanwar Secondary School</td>
+            <td>Higher Secondary</td>
+            <td>2023 - 2025</td>
+        </tr>
+    </table>
+
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>Python, C</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>MySQL</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ul>
+        <li><b>Digital Archive Manager:</b> Built using Python (Tkinter) and MySQL.</li>
+        <li><b>Climate Data Analysis:</b> Regression models for temperature trends.</li>
+    </ul>
+
+    <h2>Certifications</h2>
+    <ul>
+        <li>Python Programming – pycharma and spyder</li>
+        <li>Web Development – vs-code and rust</li>
+    </ul>
+
+    <h2>Strengths</h2>
+    <ul>
+        <li>Problem-solving</li>
+        <li>Quick learner</li>
+        <li>Teamwork and communication</li>
+    </ul>
+
+    <h2>Personal Details</h2>
+    <p>Date of Birth: 10/01/2006</p>
+    <p>Languages: English, Hindi</p>
+
+    <h2>Declaration</h2>
+    <p>
+        I hereby declare that the above information is true to the best of my knowledge.
+    </p>
+
+</div>
+
+</body>
+</html>
